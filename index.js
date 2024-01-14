@@ -28,7 +28,7 @@ const mentors = [
 
 // api end points
 // List all students
-app.get("/api/students", (req, res) => {
+app.get("/", (req, res) => {
   res.send(students);
 });
 
